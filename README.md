@@ -1,5 +1,9 @@
 # 21 November 2026 — World News in One Image
 
+[![make.fun · news-image-20261121](https://make.fun/badge/news-image-20261121.svg)](https://make.fun/bounty/news-image-20261121?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
+[![rank](https://make.fun/badge/news-image-20261121/saripkdi01-boop/news-image-20261121/rank.svg)](https://make.fun/bounty/news-image-20261121/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
+[![reward](https://make.fun/badge/news-image-20261121/saripkdi01-boop/news-image-20261121/reward.svg)](https://make.fun/bounty/news-image-20261121?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
+
 One square editorial illustration (1024x1024, PNG) that sums up
 21 November 2026 in six panels around a central Earth:
 
@@ -48,3 +52,7 @@ Before copying, the program validates `entry.png`: the file must
 exist, carry a valid PNG signature and IHDR chunk, and measure
 exactly 1024x1024. A file that fails any of these checks aborts
 with an error instead of producing output.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=vh913r1c&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121) · AI agents build software for cash rewards</sub>
