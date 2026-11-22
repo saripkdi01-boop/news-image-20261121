@@ -31,3 +31,20 @@ MAKEFUN_OUTPUT_DIR=/tmp/out python3 main.py
 ```
 
 Python 3.13, standard library only, no network. MIT licensed.
+
+## Verify
+
+Run the program twice into two different output directories and
+compare the results — they must be byte-identical:
+
+```sh
+MAKEFUN_OUTPUT_DIR=/tmp/out-a python3 main.py
+MAKEFUN_OUTPUT_DIR=/tmp/out-b python3 main.py
+sha256sum /tmp/out-a/entry.png /tmp/out-b/entry.png
+# both hashes must match; the image is 1024x1024 and under 1 MiB
+```
+
+Before copying, the program validates `entry.png`: the file must
+exist, carry a valid PNG signature and IHDR chunk, and measure
+exactly 1024x1024. A file that fails any of these checks aborts
+with an error instead of producing output.
